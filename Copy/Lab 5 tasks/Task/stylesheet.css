@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to left, rgb(91, 76, 175), rgb(248, 213, 99)); */
+}
+
+.container {
+    text-align: center;
+    padding-top: 15%;
+}
+
+#counter {
+    font-size: 60px;
+    margin: 45;
+    color: rgb(190, 163, 71); 
+    background-color: #5b4caf;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 2px 1px rgba(8, 8, 133, 0.2);}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttonReset {
+    transition: 1s;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgb(91, 76, 175);
+    color: white;
+}
+
+.buttonReset:hover {
+    transition: 1s;
+    background-color: #120a57;
+    transform: scale(1.05);
+    box-shadow: 7px 7px 2px 1px rgba(0, 0, 255, 0.2);
+    text-shadow: 0 0 10px rgb(190, 163, 71),
+    0 0 20px rgb(190, 163, 71),
+    0 0 40px rgb(190, 163, 71),
+    0 0 70px rgb(190, 163, 71),
+    0 0 110px rgb(190, 163, 71),
+    0 0 130px rgb(190, 163, 71);
+}
+
+.buttonNegative {
+    transition: 1s;
+    padding: 15px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #5b4caf;
+    color: white;
+}
+
+.buttonNegative:hover {
+    transition: 1s;
+    background-color: #120a57;
+    transform: scale(1.05);
+    box-shadow: 7px 7px 2px 1px rgba(0, 0, 255, 0.2);
+    text-shadow: 0 0 10px rgb(190, 163, 71),
+    0 0 20px rgb(190, 163, 71),
+    0 0 40px rgb(190, 163, 71),
+    0 0 70px rgb(190, 163, 71),
+    0 0 110px rgb(190, 163, 71),
+    0 0 130px rgb(190, 163, 71);
+}
+
+.buttonPositive {
+    transition: 1s;
+    padding: 15px 25px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #5b4caf;
+    color: white;
+    font-weight: bold;
+}
+
+.buttonPositive:hover {
+    transition: 1s;
+    background-color: #120a57;
+    transform: scale(1.05);
+    box-shadow: 7px 7px 2px 1px rgba(0, 0, 255, 0.2);
+    text-shadow: 0 0 10px rgb(190, 163, 71),
+    0 0 20px rgb(190, 163, 71),
+    0 0 40px rgb(190, 163, 71),
+    0 0 70px rgb(190, 163, 71),
+    0 0 110px rgb(190, 163, 71),
+    0 0 130px rgb(190, 163, 71);
+}
